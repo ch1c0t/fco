@@ -2,5 +2,11 @@
   "name": "fco",
   "version": "0.0.1",
   "description": "Function composition.",
-  "main": "lib/main.js"
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "coffee -c -o lib src"
+  },
+  "devDependencies": {
+    "coffeescript": "^1.12.7"
+  }
 }
